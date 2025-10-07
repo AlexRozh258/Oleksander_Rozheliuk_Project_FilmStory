@@ -1,0 +1,50 @@
+# --- Python general ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# --- Django stuff ---
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+tmp/
+
+# --- Environment ---
+venv/
+.env
+env/
+ENV/
+.venv/
+
+# --- VSCode / PyCharm ---
+.vscode/
+.idea/
+
+# --- Migrations (optional for local dev) ---
+*/migrations/__pycache__/
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+
+# --- Backup / archives ---
+*.zip
+*.tar.gz
+*.rar
+
+# --- Coverage / testing ---
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+.pytest_cache/
